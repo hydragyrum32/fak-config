@@ -142,8 +142,8 @@ let make_hrm = fun key_idx =>
   } in
 
   let hrm_mods = [
-    mdh.lgui, mdh.lalt, mdh.lctrl, mdh.lsft,
-    mdh.rsft, mdh.rctrl, mdh.lalt, mdh.rgui,
+    mdh.lgui, mdh.lalt, mdh.lctl, mdh.lsft,
+    mdh.rsft, mdh.rctl, mdh.lalt, mdh.rgui,
   ] in
 
   let hrm_key_indices = [0, 1, 2, 3, 4, 5, 6, 7] in
